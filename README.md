@@ -128,3 +128,14 @@ Advanced token logic (minting, burning, access control)
 Frontend integration (React/Next.js, Web3.js/Ethers.js)
 
 Feel free to fork, extend, or reference this project in your own blockchain engineering work.
+
+## Skills Demonstrated
+- Solidity smart contract development  
+- Hardhat v2 environment setup and configuration  
+- Local blockchain simulation and debugging  
+- Contract deployment using Ethers.js v5  
+- Contract interaction using Hardhat console  
+- Professional repository structuring for client-facing projects  
+- Ubuntu-based development workflow  
+- Git & GitHub version control best practices  
+- Markdown documentation and project presentation
