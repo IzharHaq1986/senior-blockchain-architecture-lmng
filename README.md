@@ -100,7 +100,7 @@ These screenshots are stored in the `docs/` folder and referenced here for easy 
 ### 4. Project Structure
 ![Project structure](docs/project-structure.png)
 
-
+```
 1. Hardhat Local Node Running
 Showing the local blockchain with unlocked accounts.
 
