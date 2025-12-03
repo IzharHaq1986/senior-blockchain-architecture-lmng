@@ -1,20 +1,44 @@
-# **LMNG-Style Blockchain Architecture (Draft)**
+# LMNG Token – Smart Contract Project (Hardhat v2)
 
-This repository explores a senior-level approach to planning a multi-chain token and puzzle ecosystem. The idea is to walk through the architectural thinking that usually happens before any Solidity code is written. It sets the stage for choosing chains, designing token behavior, and understanding how puzzles and rewards could interact with on-chain logic.
+This repository demonstrates a complete end-to-end Ethereum smart contract workflow using Hardhat v2, Ethers.js v5, and a local development network.  
+It is designed as a clean, professional sample for showcasing blockchain engineering expertise.
 
-The main document in this repo is here:  
-**docs/chains-and-tokens-spec.md**
+## Features
+- Hardhat v2 development environment  
+- Ethers.js v5 integration  
+- Local blockchain testing with `npx hardhat node`  
+- Automated deployment script  
+- Minimal token contract (`LMNGToken.sol`)  
+- GitHub-ready project structure for freelancing platforms
 
-That file outlines the early decisions a blockchain engineer would make while shaping a system like this. It’s meant to show how the planning process works, what needs to be proposed upfront, and which items should remain open until clarified.
+## Project Structure
+smart-contract-env/
+├── contracts/
+│ └── LMNGToken.sol
+├── scripts/
+│ └── deploy.js
+├── docs/
+│ └── README.md
+├── hardhat.config.js
+└── package.json
 
-Future updates will add sample Solidity contracts, a few deployment scripts, and a small React interface to show how these ideas move from planning to implementation.
+## Deploy Locally
+Start Hardhat network:
+npx hardhat node
 
-## Project Roadmap (High-Level)
+Deploy the LMNGToken contract:
+npx hardhat run scripts/deploy.js --network localhost
 
-This repository will grow in small steps. The next updates will include:
+Expected output includes the deployed contract address.
 
-1. Sample ERC20, ERC721, and ERC1155 contract outlines.
-2. A Hardhat or Foundry development environment for local testing.
-3. Deployment scripts for testnets.
-4. A small Node.js backend to handle metadata and API interactions.
-5. A simple React interface to show how the pieces connect.
+## Interact via Console
+npx hardhat console --network localhost
+
+Then:
+```js
+const LMNG = await ethers.getContractFactory("LMNGToken");
+const token = LMNG.attach("YOUR_CONTRACT_ADDRESS");
+await token.name();
+await token.symbol();
+await token.totalSupply();
+
