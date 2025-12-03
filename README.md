@@ -1,4 +1,12 @@
 # LMNG Token – Smart Contract Project (Hardhat v2)
+<p align="left">
+  <img src="https://img.shields.io/badge/Hardhat-v2.27.1-blue" />
+  <img src="https://img.shields.io/badge/Solidity-0.8.28-orange" />
+  <img src="https://img.shields.io/badge/Ethers.js-v5.8.0-green" />
+  <img src="https://img.shields.io/badge/Node.js-18.x-brightgreen" />
+  <img src="https://img.shields.io/badge/Platform-Ubuntu%2022.04-blueviolet" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow" />
+</p>
 
 This repository demonstrates a complete end-to-end Ethereum smart contract workflow using **Hardhat v2**, **Ethers.js v5**, and a **local development blockchain**.  
 It is designed as a clean, professional sample to showcase blockchain engineering expertise for GitHub, Upwork, Fiverr, and other freelancing platforms.
