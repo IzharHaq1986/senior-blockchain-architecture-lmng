@@ -128,6 +128,8 @@ Advanced token logic (minting, burning, access control)
 Frontend integration (React/Next.js, Web3.js/Ethers.js)
 
 Feel free to fork, extend, or reference this project in your own blockchain engineering work.
+```
+---
 
 ## Skills Demonstrated
 - Solidity smart contract development  
