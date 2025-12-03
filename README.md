@@ -88,16 +88,9 @@ This file explains the broader architecture decisions and how this simple token 
 ## Screenshots
 These screenshots are stored in the `docs/` folder and referenced here for easy access.
 
-### 1. Hardhat Local Node Running
 ![Hardhat local node](docs/hardhat-node.png)
-
-### 2. Contract Deployment
 ![Contract deployment](docs/contract-deployment.png)
-
-### 3. Contract Interaction
 ![Contract interaction](docs/contract-interaction.png)
-
-### 4. Project Structure
 ![Project structure](docs/project-structure.png)
 
 1. Hardhat Local Node Running
