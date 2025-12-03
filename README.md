@@ -150,6 +150,18 @@ Feel free to fork, extend, or reference this project in your own blockchain engi
 - Git & GitHub version control best practices  
 - Markdown documentation and project presentation
 ---
+## Contributing
+
+Contributions, suggestions, and improvements are welcome.  
+If you would like to contribute:
+
+1. Fork this repository  
+2. Create a new branch for your feature or fix  
+3. Commit your changes with clear messages  
+4. Submit a pull request for review  
+
+Please ensure your code follows the existing project structure and formatting.
+
 ## License
 
 This project is released under the **MIT License**.  
