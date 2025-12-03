@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/izharhaq/senior-blockchain-architecture-lmng/smart-contract-env/contracts/LMNGToken.sol": {
+      "lastModificationDate": 1764754817180,
+      "contentHash": "8067fa5db28a9a95f96ecce6ff19241d",
+      "sourceName": "contracts/LMNGToken.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "LMNGToken"
+      ]
+    }
+  }
+}

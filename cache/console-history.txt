@@ -1,0 +1,6 @@
+(await token.totalSupply()).toString();
+await token.symbol();
+await token.name();
+const token = LMNG.attach(address);
+const address = "<PASTE_YOUR_DEPLOYED_CONTRACT_ADDRESS>";
+const LMNG = await ethers.getContractFactory("LMNGToken");
