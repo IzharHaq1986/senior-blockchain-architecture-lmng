@@ -149,3 +149,11 @@ Feel free to fork, extend, or reference this project in your own blockchain engi
 - Ubuntu-based development workflow  
 - Git & GitHub version control best practices  
 - Markdown documentation and project presentation
+---
+## License
+
+This project is released under the **MIT License**.  
+You are free to use, modify, and distribute this code for both personal and commercial purposes.
+
+For more details, see the [LICENSE](LICENSE) file.
+
